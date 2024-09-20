@@ -61,7 +61,7 @@ const App = () => {
 
 
   return (
-    <div className="bg-[url('./assets/Fondo-R&M.jpg')] bg-cover h-vh min-h-screen w-full">
+    <div className="bg-[url('/Fondo-R&M.jpg')] bg-cover h-vh min-h-screen w-full">
       { pathname !== "/"  && <Nav onSearch={onSearch}/> && pathname !== "/register"  && <Nav onSearch={onSearch}/>  }
       <Routes>
         <Route path="/" element={<Form login={login}  />} />

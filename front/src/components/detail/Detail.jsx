@@ -20,7 +20,7 @@ const Detail = () => {
 
   return (
     <>
-    <div className="max-h-80 max-w-80 absolute  md:top-64 md:right-16 lg:top-52 lg:right-48 xl:top-52 xl:right-80 md:size-1/2 bg-[url('./assets/infinity.png')]  bg-contain bg-no-repeat animate-spin-slow"></div>
+    <div className="max-h-80 max-w-80 absolute  md:top-64 md:right-16 lg:top-52 lg:right-48 xl:top-52 xl:right-80 md:size-1/2 bg-[url('/infinity.png')]  bg-contain bg-no-repeat animate-spin-slow"></div>
     <div className="flex size-1/2 justify-center flex-wrap backdrop-brightness-500 bg-black/80 rounded p-8 m-8 border-4 border-indigoNeon shadow-2xl shadow-indigoNeon">
       <div className="flex flex-col self-center p-3.5">
       <h5 className="font-bold text-indigoNeon sm:text-sm md:text-base lg:text-lg xl:text-xl ">Name: {character?.name}</h5>

@@ -25,7 +25,7 @@ const SearchBar = ({onSearch}) => {
 
         <button 
         onClick={()=>{onSearch(id); handleChangeinput()}}
-        className="border-2 rounded-full p-6 h-12 w-12 hover:border-fuchsia-500 bg-[url('./assets/search.jpg')] bg-cover"
+        className="border-2 rounded-full p-6 h-12 w-12 hover:border-fuchsia-500 bg-[url('/search.jpg')] bg-cover"
         ></button> 
             </div>
      </div>   
