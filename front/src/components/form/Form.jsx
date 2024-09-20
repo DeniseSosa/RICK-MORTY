@@ -1,7 +1,7 @@
 import {  useState } from "react";
 import validation from "./validation";
 import { Link } from "react-router-dom";
-import log from "../../assets/Login.jpg"
+import log from "/assets/Login.jpg"
 
 const Form = ({login}) => {
   const [userData, setUserData] = useState({
