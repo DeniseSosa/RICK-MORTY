@@ -23,7 +23,7 @@ const App = () => {
   const onSearch = async(id) => {
     try{
       if (!characters.find((char) => char.id == id)) {
-      const {data}= await axios(`http://localhost:3001/rickandmorty/character/${id}`);
+      const {data}= await axios(`/rickandmorty/character/${id}`);
         if(data.name) 
           setCharacters((oldChars) => [...oldChars, data]);
       }
@@ -44,7 +44,7 @@ const App = () => {
   const login= async(userData) => {
     try {
       const { email, password } = userData;
-      const URL = 'http://localhost:3001/rickandmorty/login';
+      const URL = '/rickandmorty/login';
       const {data} = await axios(URL + `?email=${email}&password=${password}`)
       console.log(data);
        const { access } = data;

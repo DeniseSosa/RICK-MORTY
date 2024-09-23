@@ -21,7 +21,7 @@ const RegisterForm = ({login}) => {
     }
   
     const handleSubmit = async (event) => {
-        const endpoint = 'http://localhost:3001/rickandmorty/login'
+        const endpoint = '/rickandmorty/login'
         event.preventDefault()
         try {
             console.log("endpoint");
